@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Andrometer</string>
+    <string name="prompt_upp">Pilih UPP</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5681172071871715/9857026929</string>
+    <string-array name="array_upp">
+        <item>01 - UPP Jayapura Selatan</item>
+        <item>02 - UPP Jayapura Utara</item>
+        <item>03 - UPP Abepura</item>
+        <item>04 - UPP Waena</item>
+        <item>05 - UPP Sentani</item>
+        <item>06 - UPP Genyem</item>
+    </string-array>
+
+    <string-array name="array_status">
+        <item>Tersisa</item>
+        <item>Dibaca</item>
+        <item>Semua</item>
+    </string-array>
+
+    <string-array name="array_kwm">
+        <item>1 - Meter Baik</item>
+        <item>2 - Meter Segel</item>
+        <item>3 - Meter Rusak</item>
+        <item>4 - Tanpa Meter</item>
+    </string-array>
+
+    <string-array name="array_pengaliran">
+        <item>L - Lancar</item>
+        <item>T - Tidak Lancar</item>
+    </string-array>
+
+    <string name="petugas_pendata">Petugas Pendata</string>
+    <string-array name="array_petugas">
+        <item>1 - Petugas Koperasi</item>
+        <item>2 - Petugas UPP</item>
+    </string-array>
+</resources>

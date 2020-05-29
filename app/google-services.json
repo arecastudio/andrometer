@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224875441188",
+    "firebase_url": "https://andrometer-730a5.firebaseio.com",
+    "project_id": "andrometer-730a5",
+    "storage_bucket": "andrometer-730a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224875441188:android:a529da98aa6faa78",
+        "android_client_info": {
+          "package_name": "com.kasuariweb.andrometer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224875441188-j9k39dt83533a703nephhltccq9jjhsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kasuariweb.andrometer",
+            "certificate_hash": "cddabdc490e6d4a89aa526ee9bbf1b2572c77141"
+          }
+        },
+        {
+          "client_id": "224875441188-bs6iar3blp4qnolcfd3noouks1drnr76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDnKw9tGP72E8tYAr_OMpU01wlL7Uahk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224875441188-bs6iar3blp4qnolcfd3noouks1drnr76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

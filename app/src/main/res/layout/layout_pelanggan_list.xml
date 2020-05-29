@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_kode_blok"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:text="kode blok"/>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_total"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="keterangan"/>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_terbaca"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorGreen"
+        android:text="keterangan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_sisa"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorAccent"
+        android:text="keterangan"/>
+</LinearLayout>

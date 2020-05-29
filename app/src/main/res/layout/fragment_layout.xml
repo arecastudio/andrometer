@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kasuariweb.andrometer.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#99000000">
+
+    <!--  Tombol Berita -->
+    <Button
+        android:id="@+id/btn_pelanggan"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_supervisor_account_black_24dp"
+        android:text="Pelanggan" />
+
+    <!--  Tombol Teman -->
+    <Button
+        android:id="@+id/btn_pencarian"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_search_black_24dp"
+        android:text="Pencarian" />
+
+    <!--  Tombol Pesan -->
+    <Button
+        android:id="@+id/btn_download"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_get_app_black_24dp"
+        android:text="Download" />
+
+    <!--  Tombol Tempat -->
+    <Button
+        android:id="@+id/btn_upload"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_open_in_browser_black_24dp"
+        android:text="Upload" />
+
+    <!--  Tombol Foto -->
+    <Button
+        android:id="@+id/btn_delete"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_delete_black_24dp"
+        android:text="Hapus Data" />
+
+    <!--  Tombol Acara -->
+    <Button
+        android:id="@+id/btn_pengaturan"
+        style="@style/DashboardButton"
+        android:drawableTop="@mipmap/ic_settings_black_24dp"
+        android:text="Pengaturan" />
+
+</com.kasuariweb.andrometer.DashboardLayout>

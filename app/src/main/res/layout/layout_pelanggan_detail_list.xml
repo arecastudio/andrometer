@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:background="@color/colorAccent"
+        android:padding="2dp"
+        android:id="@+id/foto"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_nomor"
+            android:textSize="15dp"
+            android:textColor="@color/colorGreen"
+            android:text="002232 / 1010101010"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_nama"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Enembe Ukago"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_alamat"
+            android:textColor="@color/colorRedDark"
+            android:text="Jl. Soa-soa Laut No. 15"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_kwm"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="1 - Meter Baik"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_pengaliran"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="1 - Lancar"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_angka"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="234"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_status"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="Belum"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_keterangan"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="-"/>
+    </LinearLayout>
+
+</LinearLayout>
